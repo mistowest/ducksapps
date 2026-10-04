@@ -1,0 +1,164 @@
+# ---> Python
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+.ruff_cache/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ---> Dart / Flutter
+# Dart VM service and Observatory
+.dart_tool/
+.packages
+# Flutter specific
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+# Web
+web/
+# iOS
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Engine/
+ios/Flutter/Flutter.xcframework
+# Android
+android/.gradle
+android/app/
+android/build/
+# Exceptions to above rules.
+!android/gradle-wrapper.jar
+!android/gradlew
+!android/gradlew.bat
+!android/local.properties
+!android/key.properties
+!android/keychain.properties
+!android/keychain/keystores/
+# ---> Operating System
+# Windows
+Thumbs.db
+Ehthumbs.de
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+# temporary files which become .swp
+*.[oa]
+*.aux
+*.il
+*.ind
+*.lof
+*.lot
+*.out
+*.toc
+*.snm
+*.idx
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created by remote AFP connection
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# ---> Miscellaneous
+# Logs
+logs
+*.log
+
+# Backup files
+*~
+*.bak
+*.swp
+
+# Environment variables
+.env
+.env.*
+! .env.example  # Allow the example file through
+
+# Project-specific exclusions
+# Decompiled app outputs (should not be committed)
+out_flutter/
+out_native/
+blutter/
+meuapp_client/  # This is the extracted Python package from the app
+**/*.apk
+**/*.aab
+**/*.zip
+**/*.tar.gz
+
+# Analysis fixtures with secrets
+Doc/fixtures/*secret*

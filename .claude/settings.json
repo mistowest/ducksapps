@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bash ~/.claude/plugins/cache/android-reverse-engineering-skill/*)",
+      "Bash(flutterdec *)",
+      "Edit(/Doc/**)",
+      "Write(/Doc/**)"
+    ],
+    "deny": [
+      "Edit(/Scripts/**)",
+      "Write(/Scripts/**)"
+    ]
+  }
+}
